@@ -1,0 +1,52 @@
+{
+	"name": "gavinggordon/input-validator",
+	"description": "A PHP class which provides the ability to quickly validate user input, depending on a set of user-defined rules.",
+	"license": "MIT",
+	"keywords": [
+	  	"v1.0.0",
+		"php",
+		"input",
+		"validation",
+		"validator",
+		"validate",
+		"data",
+		"check",
+		"form",
+		"test",
+		"security",
+		"safety",
+		"preprocessing",
+		"processing"
+	],
+	"authors": [
+		{
+			"name": "Gavin G Gordon",
+			"email": "support@gavingordon.com",
+			"homepage": "https://gavingordon.com",
+			"role": "Developer"
+		}
+	],
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"homepage": "http://input-validator.gavingordon.com",
+	"support": {
+		"issues": "https://github.com/gavinggordon/input-validator/issues",
+		"source": "https://github.com/gavinggordon/input-validator"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/gavinggordon/htmlentities.git"
+		}
+	],
+	"require": {},
+	"require-dev": {
+		"phpunit/phpunit": "4.0.*",
+		"codeclimate/php-test-reporter": "dev-master"
+	},
+	"autoload": {
+			"psr-4": {
+				"GGG\\": "src"
+		}
+	}
+}
